@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Stable",
+    "matchedStatuses": [
+      "passed"
+    ]
+  },
+  {
+    "name": "Unstable",
+    "matchedStatuses": [
+      "failed"
+    ]
+  }
+]
