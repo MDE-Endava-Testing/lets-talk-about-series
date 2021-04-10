@@ -8,7 +8,7 @@
   <artifactId>lets-talk-about-series</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>"Let's talk about" series</name>
+  <name>Let's talk about series</name>
 
   <properties>
     <!-- General -->
