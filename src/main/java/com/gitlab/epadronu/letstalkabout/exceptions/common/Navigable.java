@@ -12,4 +12,6 @@ public interface Navigable {
   void sendKeys(final String string);
 
   void click();
+
+  String html();
 }

@@ -26,4 +26,9 @@ public abstract class Page implements Navigable {
   @Override
   public void click() {
   }
+
+  @Override
+  public String html() {
+    return null;
+  }
 }
