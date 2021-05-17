@@ -1,4 +1,4 @@
-package com.gitlab.epadronu.letstalkaboutassertj.utils;
+package com.gitlab.epadronu.letstalkabout.utils;
 
 import io.qameta.allure.Allure;
 import org.apache.commons.lang3.exception.ExceptionUtils;

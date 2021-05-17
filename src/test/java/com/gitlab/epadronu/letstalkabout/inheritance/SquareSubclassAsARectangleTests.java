@@ -1,5 +1,7 @@
 package com.gitlab.epadronu.letstalkabout.inheritance;
 
+import com.gitlab.epadronu.letstalkabout.utils.AllureExtension;
+import com.gitlab.epadronu.letstalkabout.utils.PascalCaseDisplayNameGenerator;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.DisplayNameGeneration;
@@ -9,8 +11,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 
-@DisplayNameGeneration(com.gitlab.epadronu.letstalkaboutassertj.utils.PascalCaseDisplayNameGenerator.class)
-@ExtendWith({com.gitlab.epadronu.letstalkaboutassertj.utils.AllureExtension.class})
+@DisplayNameGeneration(PascalCaseDisplayNameGenerator.class)
+@ExtendWith({AllureExtension.class})
 @Severity(SeverityLevel.NORMAL)
 @Tag("Demo")
 public class SquareSubclassAsARectangleTests {

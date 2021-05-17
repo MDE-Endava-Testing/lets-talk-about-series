@@ -2,8 +2,8 @@ package com.gitlab.epadronu.letstalkabout.assertj;
 
 import java.util.regex.Pattern;
 
-import com.gitlab.epadronu.letstalkaboutassertj.utils.AllureExtension;
-import com.gitlab.epadronu.letstalkaboutassertj.utils.PascalCaseDisplayNameGenerator;
+import com.gitlab.epadronu.letstalkabout.utils.AllureExtension;
+import com.gitlab.epadronu.letstalkabout.utils.PascalCaseDisplayNameGenerator;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.DisplayNameGeneration;

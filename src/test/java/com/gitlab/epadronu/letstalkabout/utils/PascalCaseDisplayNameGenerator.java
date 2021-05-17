@@ -1,4 +1,4 @@
-package com.gitlab.epadronu.letstalkaboutassertj.utils;
+package com.gitlab.epadronu.letstalkabout.utils;
 
 import java.lang.reflect.Method;
 
